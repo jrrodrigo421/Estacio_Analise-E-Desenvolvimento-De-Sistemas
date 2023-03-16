@@ -98,7 +98,9 @@
       <input type="submit" value="submit">
 
     </form>
+
     <br><br>
+
     <form action="./7_meu_primeiro_programa_php.php">
       <input type="radio" name="fav_language" id="html" value="HTML">
       <label for="html">HTML</label><br>
@@ -109,7 +111,9 @@
       <br>
       <input type="submit" value="submit">
     </form>
+
     <br><br>
+
     <label for="favcolor">Selecione sua cor favorita: </label>
     <label for="favcolor">( Select your favorite color ) </label>
     <br>
@@ -117,12 +121,25 @@
     <label for="birthday">Birthday: </label>
     <input type="date" name="birthday" id="birthday">
   </section>
+
   <br>
+
   <section>
     <label for="vol">Volume (between 0 and 50): </label>
     <input type="range" name="" id="vol" name="vol" min="0" max="50"><br><br>
     <label for="quantity">Quantity</label> 
     <input type="number" name="quantity" id="quantity" min="0" max="100" step="10" value="30">
   </section>
+
+  <h2>Validação de Email:</h2>
+  <form action="./7_meu_primeiro_programa_php.php">
+    <label for="email">Entre com seu email: </label>
+    <input type="email" name="email" id="id" required="true"><br>
+    <input type="submit" value="Submit">
+    <br><br>
+    <label for="quantity">Quantity: </label><br>
+    <input type="number" name="quantity" id="quantity" min="0" max="100" step="5" value="0">
+    
+  </form>
 
   </html>
