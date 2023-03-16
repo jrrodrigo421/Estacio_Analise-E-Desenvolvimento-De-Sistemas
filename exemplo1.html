@@ -141,5 +141,16 @@
     <input type="number" name="quantity" id="quantity" min="0" max="100" step="5" value="0">
     
   </form>
-
+<br><br>
+<h2>Definindo o proprio *type* para validação:</h2>
+<form action="./7_meu_primeiro_programa_php.php">
+  <label for="cep">Enter CEP number: </label>
+  <br><br>
+  <input type="cep" name="cep" id="cep"
+  placeholder="12345-678"
+  pattern="[0-9]{5}-[0-9]{3}"
+  required><br><br>
+  <small>FORMAT: 12345-000</small>
+  <input type="submit" value="submit">
+</form>
   </html>
