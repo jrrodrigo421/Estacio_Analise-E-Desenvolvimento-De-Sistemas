@@ -1,3 +1,5 @@
+// Alguns Exemplos da Introdução 
+
 // criando uma função simples em javascript 
 
 function somar(a,b) {
@@ -23,4 +25,18 @@ let soma = () => {
   c = Number(a + b)
   alert(c)
 } 
-soma()
+// soma()
+
+
+// XML HTTP REQUEST 
+
+function alterar() {
+  const request = new XMLHttpRequest()
+  request.open('GET',
+    'http://localhost:5000/1_minha_primeira_pagina_html.html')
+  request.onload = () => {
+    console.log(request.responseText);
+  }
+  request.send()
+}
+// alterar()
