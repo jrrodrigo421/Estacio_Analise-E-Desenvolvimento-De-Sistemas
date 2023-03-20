@@ -19,13 +19,27 @@ let somar3 = (a,b) => a + b
 // console.log(somar3(1,1)) 
 
 let soma = () => {
-  a = prompt('insira o valor do primeiro numero a ser somado: ')
-  b = prompt('insira o valor do segundo numero a ser somado: ')
+  var a = prompt('insira o valor do primeiro numero a ser somado: ')
+  var b = prompt('insira o valor do segundo numero a ser somado: ')
   
-  c = Number(a + b)
+  var c = Number(a) + Number(b)
   alert(c)
 } 
 // soma()
+
+// Exericio proposto
+// funçã dividir 
+let divida = () => {
+  var a = prompt('insira o valor do primeiro numero: ')
+  var b = prompt('insira o valor do segundo numero: ')
+  
+  var c = Number(a) / Number(b)
+   
+  
+  alert("O Resultado de " + a + " divido por " + b + " é " + c)
+} 
+divida()
+
 
 
 // XML HTTP REQUEST 
@@ -40,3 +54,8 @@ function alterar() {
   request.send()
 }
 // alterar()
+
+
+
+
+
