@@ -38,24 +38,26 @@ let divida = () => {
   
   alert("O Resultado de " + a + " divido por " + b + " é " + c)
 } 
-divida()
+// divida()
 
 
 
 // XML HTTP REQUEST 
 
-function alterar() {
-  const request = new XMLHttpRequest()
-  request.open('GET',
-    'http://localhost:5000/1_minha_primeira_pagina_html.html')
-  request.onload = () => {
-    console.log(request.responseText);
-  }
-  request.send()
-}
+// function alterar() {
+//   const request = new XMLHttpRequest()
+//   request.open('GET',
+//     'http://localhost:5000/1_minha_primeira_pagina_html.html')
+//   request.onload = () => {
+//     console.log(request.responseText);
+//   }
+//   request.send()
+// }
 // alterar()
 
 
+// print("hello world")
+// window.print("Ola")
 
 
 
